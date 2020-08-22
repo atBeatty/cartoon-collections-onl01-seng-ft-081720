@@ -21,8 +21,7 @@ end
 
 def summon_captain_planet(collection)
   collection.collect do |element|
-    element.capitalize
-    element << "!"
+    element.capitalize << "!"
   end
   # Your code here
 
