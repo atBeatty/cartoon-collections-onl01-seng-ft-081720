@@ -8,6 +8,7 @@ def roll_call_dwarves(collection)
 
 end
 
+
 def summon_captain_planet(collection)
   new_array = []
   collection.each do |el|
@@ -16,7 +17,14 @@ def summon_captain_planet(collection)
     new_array << el
   end
   # Your code here
-  new_array
+end
+
+def summon_captain_planet(collection)
+  collection.collect do |element|
+    element.capitalize << "!"
+  end
+  # Your code here
+
 end
 
 def long_planeteer_calls(collection)
