@@ -17,7 +17,7 @@ def summon_captain_planet(collection)
     new_array << el
   end
   # Your code here
-
+end
 
 def summon_captain_planet(colleciton)
   collection.collect do |element|
